@@ -38,28 +38,28 @@ function HomePage() {
 
   // 1. Synchronize SEO Metas & Structured LocalBusiness Schema
   useEffect(() => {
-    document.title = 'Farida Listiana | Konsultan Properti Utama & Agen Profesional';
+    document.title = 'Tri Yatmi | Konsultan Properti Utama & Agen Profesional';
     
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
       metaDescription.setAttribute(
         'content',
-        'Website personal resmi Farida Listiana, konsultan properti profesional terpercaya (terafiliasi dengan Valtis Property) untuk kebutuhan jual, beli, sewa, serta investasi.'
+        'Website personal resmi Tri Yatmi, konsultan properti profesional terpercaya (terafiliasi dengan Valtis Property) untuk kebutuhan jual, beli, sewa, serta investasi.'
       );
     } else {
       const meta = document.createElement('meta');
       meta.name = 'description';
-      meta.content = 'Website personal resmi Farida Listiana, konsultan properti profesional terpercaya (terafiliasi dengan Valtis Property) untuk kebutuhan jual, beli, sewa, serta investasi.';
+      meta.content = 'Website personal resmi Tri Yatmi, konsultan properti profesional terpercaya (terafiliasi dengan Valtis Property) untuk kebutuhan jual, beli, sewa, serta investasi.';
       document.head.appendChild(meta);
     }
 
     const jsonLd = {
       '@context': 'https://schema.org',
       '@type': 'RealEstateAgent',
-      'name': 'Farida Listiana - Konsultan Properti Utama',
+      'name': 'Tri Yatmi - Konsultan Properti Utama',
       'image': `${window.location.origin}/images/farida-listiana-professional(2).png`,
-      'description': 'Temukan properti terbaik bersama Farida Listiana, konsultan properti profesional terpercaya untuk kebutuhan jual, beli, sewa, serta investasi di Jabodetabek.',
-      'telephone': '0812-8730-3467',
+      'description': 'Temukan properti terbaik bersama Tri Yatmi, konsultan properti profesional terpercaya untuk kebutuhan jual, beli, sewa, serta investasi di Jabodetabek.',
+      'telephone': '+62 819-1109-2009',
       'url': window.location.origin,
       'address': {
         '@type': 'PostalAddress',

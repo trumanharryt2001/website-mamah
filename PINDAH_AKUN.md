@@ -15,3 +15,4 @@ Format `.env.local`:
 VITE_SUPABASE_URL=https://xxxxx.supabase.co
 VITE_SUPABASE_PUBLISHABLE_KEY=xxxxx
 ```
+

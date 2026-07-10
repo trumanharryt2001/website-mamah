@@ -2,13 +2,13 @@ import { Property, PropertyArea, LayananItem, TestimonialItem, ArticleItem } fro
 
 // Informasi Kontak Utama
 export const CONTACT_INFO = {
-  name: 'Farida Listiana',
+  name: 'Tri Yatmi',
   title: 'Konsultan Properti Profesional (Affiliated with Valtis Property)',
-  whatsappPrimary: '087734651610', // Link format: 6287734651610
-  whatsappSecondary: '081287303467', // Link format: 6281287303467
-  whatsappPrimaryFormatted: '0877-3465-1610',
-  whatsappSecondaryFormatted: '0812-8730-3467',
-  email: 'farida.listiana@valtisproperty.com',
+  whatsappPrimary: '81911092009', // Link format: 6281911092009
+  whatsappSecondary: '81911092009', // Link format: 6281911092009
+  whatsappPrimaryFormatted: '+62 819-1109-2009',
+  whatsappSecondaryFormatted: '+62 819-1109-2009',
+  email: 'tri.yatmi@valtisproperty.com',
   address: 'Ruko Alicante Blok A. No 10 , Gading Serpong, Pagedangan, Tangerang Regency, Banten 15334',
   social: {
     instagram: 'https://instagram.com/valtis.property',
@@ -183,7 +183,7 @@ export const SERVICES_DATA: LayananItem[] = [
 export const WHY_CHOOSE_REASONS = [
   'Konsultasi tulus berdasarkan kebutuhan rill Anda, bukan sekadar memaksakan target penjualan properti.',
   'Informasi mengenai spesifikasi, legalitas sertifikat, dan kondisi lingkungan disampaikan secara jelas dan 100% transparan.',
-  'Respons komunikasi yang cepat dan solutif direct lewat WhatsApp Ibu Farida pribadi.',
+  'Respons komunikasi yang cepat dan solutif direct lewat WhatsApp Ibu Tri pribadi.',
   'Pendampingan penuh dedikasi luar biasa semenjak proses awal konsultasi rill, survei lokasi, hingga legal transaksi di notaris.',
   'Rekomendasi pilihan properti yang dipilah ketat agar cocok dengan anggaran dan profil tujuan finansial Anda.',
   'Strategi pemasaran personal, adaptif, dan ekstensif untuk memaksimalkan daya sebar unit properti yang dititipkan.'
@@ -199,12 +199,12 @@ export const WORK_PROCESS_STEPS = [
   {
     step: '02',
     title: 'Rekomendasi Terkurasi',
-    description: 'Ibu Farida akan menyeleksi beberapa opsi listing properti terbaik dari Valtis Property yang paling selaras dengan indikator Anda.'
+    description: 'Ibu Tri akan menyeleksi beberapa opsi listing properti terbaik dari Valtis Property yang paling selaras dengan indikator Anda.'
   },
   {
     step: '03',
     title: 'Survei Lapangan & Negosiasi',
-    description: 'Mari jadwalkan kunjungan langsung ke lokasi terpilih. Ibu Farida akan memandu proses survei dan mendampingi negosiasi harga.'
+    description: 'Mari jadwalkan kunjungan langsung ke lokasi terpilih. Ibu Tri akan memandu proses survei dan mendampingi negosiasi harga.'
   },
   {
     step: '04',
@@ -219,21 +219,21 @@ export const WORK_PROCESS_STEPS = [
 //     id: 'test-1',
 //     name: 'Bapak Hartono & Keluarga',
 //     role: 'Pembeli Hunian di BSD',
-//     content: '“Ibu Farida sangat membantu dalam mewujudkan mimpi keluarga kami untuk memiliki rumah di BSD City. Penjelasannya mendetail, tidak terburu-buru, sangat sabar menjawab ragam kegelisahan kami mengenai proses KPR, dan benar-benar mengawal kelancaran hingga serah terima kunci.”',
+//     content: '“Ibu Tri sangat membantu dalam mewujudkan mimpi keluarga kami untuk memiliki rumah di BSD City. Penjelasannya mendetail, tidak terburu-buru, sangat sabar menjawab ragam kegelisahan kami mengenai proses KPR, dan benar-benar mengawal kelancaran hingga serah terima kunci.”',
 //     avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=150&q=80'
 //   },
 //   {
 //     id: 'test-2',
 //     name: 'Ibu Shanti Puspita',
 //     role: 'Investor Properti ruko Alam Sutera',
-//     content: '“Komunikasi rill yang berjalan sangat cepat dan keterbukaan informasi yang luar biasa transparan menjadi nilai utama Ibu Farida. Segala seluk-beluk daerah komersial ruko diletakkan sejujurnya, membuat keputusan investasi saya jauh lebih terukur dan percaya diri.”',
+//     content: '“Komunikasi rill yang berjalan sangat cepat dan keterbukaan informasi yang luar biasa transparan menjadi nilai utama Ibu Tri. Segala seluk-beluk daerah komersial ruko diletakkan sejujurnya, membuat keputusan investasi saya jauh lebih terukur dan percaya diri.”',
 //     avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&q=80'
 //   },
 //   {
 //     id: 'test-3',
 //     name: 'Bapak Dr. Ronald',
 //     role: 'Klien Penitipan Sewa Rumah',
-//     content: '“Saya mempercayakan penitipan pemasaran rumah sewa saya di Bintaro kepada Ibu Farida Listiana. Hanya butuh waktu kurang dari 3 minggu hingga beliau berhasil memilah penyewa yang andal dan berkualitas untuk menyewa aset berharga kami.”',
+//     content: '“Saya mempercayakan penitipan pemasaran rumah sewa saya di Bintaro kepada Ibu Tri Yatmi. Hanya butuh waktu kurang dari 3 minggu hingga beliau berhasil memilah penyewa yang andal dan berkualitas untuk menyewa aset berharga kami.”',
 //     avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80'
 //   }
 // ];
@@ -271,3 +271,4 @@ export const ARTICLES_DATA: ArticleItem[] = [
     readTime: '6 menit baca'
   }
 ];
+

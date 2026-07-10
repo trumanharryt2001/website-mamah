@@ -90,3 +90,4 @@ export interface Property {
   updated_at: string;
   property_images?: PropertyImage[];
 }
+

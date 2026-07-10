@@ -331,7 +331,7 @@ export default function ConsignmentForm() {
         .map((url, index) => `${index + 1}. ${url}`)
         .join('\n');
 
-      const message = `Halo Ibu Farida,
+      const message = `Halo Ibu Tri,
 
 Saya ingin ${actionText} properti dan menitipkan pemasarannya melalui website personal Ibu.
 
@@ -415,7 +415,7 @@ Mohon bantuannya untuk konsultasi dan strategi pemasaran properti tersebut. Teri
           </h2>
 
           <p className="leading-relaxed text-blue-100 sm:text-lg">
-            Titipkan aset properti Anda kepada Ibu Farida
+            Titipkan aset properti Anda kepada Ibu Tri
             Listiana, konsultan properti di Valtis Property,
             dan dapatkan strategi pemasaran yang sesuai agar
             properti lebih mudah menjangkau calon pembeli atau
@@ -843,7 +843,7 @@ Mohon bantuannya untuk konsultasi dan strategi pemasaran properti tersebut. Teri
                     />
 
                     <span>
-                      Saya menyetujui Ibu Farida Listiana
+                      Saya menyetujui Ibu Tri Yatmi
                       menghubungi saya untuk memverifikasi data
                       dan membahas strategi pemasaran properti
                       ini. *
@@ -913,7 +913,7 @@ Mohon bantuannya untuk konsultasi dan strategi pemasaran properti tersebut. Teri
                   <p className="mx-auto max-w-md text-sm text-slate-600 sm:text-base">
                     Foto telah diunggah dan tautannya sudah
                     dimasukkan ke pesan WhatsApp. Anda akan
-                    dialihkan ke WhatsApp Ibu Farida.
+                    dialihkan ke WhatsApp Ibu Tri.
                   </p>
                 </div>
 
@@ -938,3 +938,4 @@ Mohon bantuannya untuk konsultasi dan strategi pemasaran properti tersebut. Teri
     </section>
   );
 }
+

@@ -18,7 +18,7 @@ export default function WhyChooseFarida() {
                 UNGGUL &amp; TERPERCAYA
               </span>
               <h2 className="font-serif text-3xl sm:text-4xl font-bold text-navy leading-tight">
-                Mengapa Memilih Farida Listiana?
+                Mengapa Memilih Tri Yatmi?
               </h2>
               <p className="text-gray-500 text-sm sm:text-base leading-relaxed">
                 Menghadirkan pelayanan konsultasi properti berstandar tinggi dengan mengedepankan keamanan transaksi dan kenyamanan relasi jangka panjang.
@@ -74,7 +74,7 @@ export default function WhyChooseFarida() {
             >
               <img
                 src="/images/farida/farida-consultation(2).png"
-                alt="Ibu Farida sedang berdiskusi secara profesional dan transparan dengan klien"
+                alt="Ibu Tri sedang berdiskusi secara profesional dan transparan dengan klien"
                 className="w-full h-full object-cover transform hover:scale-102 transition-transform duration-500"
                 loading="lazy"
                 referrerPolicy="no-referrer"
@@ -95,3 +95,4 @@ export default function WhyChooseFarida() {
     </section>
   );
 }
+

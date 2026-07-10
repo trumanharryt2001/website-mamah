@@ -19,10 +19,10 @@
 //             TESTIMONI KLIEN
 //           </motion.div>
 //           <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-navy">
-//             Apa Kata Klien Farida Listiana?
+//             Apa Kata Klien Tri Yatmi?
 //           </h2>
 //           <p className="text-gray-600 sm:text-lg leading-relaxed">
-//             Kepercayaan klien adalah aset kami yang paling berharga. Berikut penuturan jujur dari mereka yang telah mempercayakan propertinya bersama Farida Listiana.
+//             Kepercayaan klien adalah aset kami yang paling berharga. Berikut penuturan jujur dari mereka yang telah mempercayakan propertinya bersama Tri Yatmi.
 //           </p>
 //         </div>
 
@@ -79,3 +79,4 @@
 //     </section>
 //   );
 // }
+

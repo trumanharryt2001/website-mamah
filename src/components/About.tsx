@@ -59,7 +59,7 @@ export default function About({ onNavigate }: AboutProps) {
             >
               <img
                 src={IMAGES.faridaPortrait}
-                alt="Farida Listiana, Konsultan Properti Profesional"
+                alt="Tri Yatmi, Konsultan Properti Profesional"
                 className="w-full h-full object-cover"
                 loading="lazy"
                 referrerPolicy="no-referrer"
@@ -68,7 +68,7 @@ export default function About({ onNavigate }: AboutProps) {
                 <blockquote className="text-xs italic text-[#CAF0F8] mb-2 leading-relaxed opacity-90">
                   "Lebih dari 20 tahun mendampingi klien memilih dan memasarkan properti melalui pengalaman, komunikasi, dan pertimbangan yang matang."
                 </blockquote>
-                <p className="font-serif font-extrabold text-lg text-white">Farida Listiana</p>
+                <p className="font-serif font-extrabold text-lg text-white">Tri Yatmi</p>
                 <p className="text-[10px] uppercase font-bold text-[#90E0EF] tracking-widest mt-0.5">
                   Konsultan Properti Profesional
                 </p>
@@ -115,7 +115,7 @@ export default function About({ onNavigate }: AboutProps) {
 
             <div className="space-y-4 text-slate-600 sm:text-lg leading-relaxed text-justify">
               <p>
-                <strong>Farida Listiana</strong> adalah konsultan properti profesional dengan pengalaman lebih dari 20 tahun dalam mendampingi kebutuhan jual, beli, dan sewa properti. Pengalaman panjang tersebut membentuk pemahaman yang kuat terhadap perkembangan pasar, karakter lokasi, penentuan harga, kebutuhan klien, serta proses transaksi properti.
+                <strong>Tri Yatmi</strong> adalah konsultan properti profesional dengan pengalaman lebih dari 20 tahun dalam mendampingi kebutuhan jual, beli, dan sewa properti. Pengalaman panjang tersebut membentuk pemahaman yang kuat terhadap perkembangan pasar, karakter lokasi, penentuan harga, kebutuhan klien, serta proses transaksi properti.
               </p>
               <p>
                 Berbekal wawasan pasar dan jaringan profesional yang dibangun selama lebih dari dua dekade, Farida memberikan rekomendasi yang terukur dan relevan. Setiap klien mendapatkan pendampingan personal sejak konsultasi awal, pencarian atau pemasaran properti, proses survei, negosiasi, hingga koordinasi transaksi bersama pihak terkait.
@@ -205,10 +205,10 @@ export default function About({ onNavigate }: AboutProps) {
                 {/* Header Profile */}
                 <div className="flex items-center space-x-4 border-b border-slate-100 pb-5">
                   <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-full overflow-hidden border-2 border-slate-150 flex-shrink-0">
-                    <img src={IMAGES.faridaPortrait} alt="Portrait Farida Listiana" className="w-full h-full object-cover" />
+                    <img src={IMAGES.faridaPortrait} alt="Portrait Tri Yatmi" className="w-full h-full object-cover" />
                   </div>
                   <div>
-                    <h3 className="font-serif text-xl sm:text-2xl font-black text-navy leading-tight">Farida Listiana</h3>
+                    <h3 className="font-serif text-xl sm:text-2xl font-black text-navy leading-tight">Tri Yatmi</h3>
                     <p className="text-xs text-slate-500 font-bold uppercase tracking-wider mt-0.5">Konsultan Properti Profesional</p>
                     <p className="text-[10px] text-slate-400">Bagian dari Valtis Property</p>
                   </div>
@@ -217,7 +217,7 @@ export default function About({ onNavigate }: AboutProps) {
                 {/* CV / Bio Details */}
                 <div className="space-y-4 text-sm text-slate-600 leading-relaxed text-justify">
                   <p>
-                    Sebagai seorang <strong>kolega dan konsultan real estate utama</strong> yang bermitra dengan kantor agen properti tepercaya <strong>Valtis Property</strong>, Farida Listiana telah mendedikasikan bertahun-tahun masa baktinya untuk mempelajari denyut pasar real estat utama Indonesia, khususnya kawasan residensial serta komersial premium Jabodetabek seperti BSD City, Gading Serpong, Alam Sutera, Bintaro, dan Jakarta Raya.
+                    Sebagai seorang <strong>kolega dan konsultan real estate utama</strong> yang bermitra dengan kantor agen properti tepercaya <strong>Valtis Property</strong>, Tri Yatmi telah mendedikasikan bertahun-tahun masa baktinya untuk mempelajari denyut pasar real estat utama Indonesia, khususnya kawasan residensial serta komersial premium Jabodetabek seperti BSD City, Gading Serpong, Alam Sutera, Bintaro, dan Jakarta Raya.
                   </p>
                   <p>
                     Visi utama beliau adalah <strong>merombak cara transaksi properti konvensional menjadi transparan dan tulus</strong>. Oleh karena itu, Farida bersama Valtis Property mendedikasikan pilar-pilar integritas tepercaya, pemetaan kebutuhan yang kritis, respons pelayanan yang cepat, dan pendampingan dokumen legal yang aman dari sengketa hukum.

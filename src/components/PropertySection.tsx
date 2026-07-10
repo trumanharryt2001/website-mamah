@@ -182,7 +182,7 @@ export default function PropertySection({ filters }: PropertySectionProps) {
   const regularProperties = filteredProperties.filter((prop) => !Boolean(prop.featured));
 
   const getWhatsAppPropertyLink = (prop: Property) => {
-    const textMessage = `Halo Ibu Farida,%20saya%20tertarik%20dengan%20properti%20"${encodeURIComponent(
+    const textMessage = `Halo Ibu Tri,%20saya%20tertarik%20dengan%20properti%20"${encodeURIComponent(
       prop.title || ''
     )}"%20yang%20berada%20di%20${encodeURIComponent(
       (prop.area || '') + ', ' + (prop.city || '')
@@ -528,7 +528,7 @@ export default function PropertySection({ filters }: PropertySectionProps) {
                               href={getWhatsAppPropertyLink(prop)}
                               target="_blank"
                               rel="noopener noreferrer"
-                              aria-label="Tanya Ibu Farida via WhatsApp"
+                              aria-label="Tanya Ibu Tri via WhatsApp"
                               className="p-3 rounded-xl bg-slate-50 hover:bg-[#25D366]/10 text-slate-400 hover:text-[#25D366] border border-slate-200/60 hover:border-[#25D366] transition-all duration-300 flex items-center justify-center cursor-pointer"
                             >
                               <WhatsAppIcon className="w-5 h-5" />

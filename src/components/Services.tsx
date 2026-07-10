@@ -25,7 +25,7 @@ export default function Services() {
   };
 
   const getWhatsAppServiceLink = (serviceTitle: string) => {
-    const text = `Halo Ibu Farida,%20saya%20ingin%20berkonsultasi%20mengenai%20Layanan%20"${encodeURIComponent(serviceTitle)}"%20yang%20saya%20baca%20di%20website%20personal%20Ibu.`;
+    const text = `Halo Ibu Tri,%20saya%20ingin%20berkonsultasi%20mengenai%20Layanan%20"${encodeURIComponent(serviceTitle)}"%20yang%20saya%20baca%20di%20website%20personal%20Ibu.`;
     return `https://wa.me/62${CONTACT_INFO.whatsappPrimary}?text=${text}`;
   };
 
@@ -105,3 +105,4 @@ export default function Services() {
     </section>
   );
 }
+

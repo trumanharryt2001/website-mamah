@@ -60,7 +60,7 @@ export default function Hero({ onSearchClick, onNavigate }: HeroProps) {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-base sm:text-lg text-gray-600 max-w-xl leading-relaxed"
             >
-              Farida Listiana membantu Anda membeli, menjual, dan menyewakan properti dengan proses yang lebih terarah, transparan, dan profesional.
+              Tri Yatmi membantu Anda membeli, menjual, dan menyewakan properti dengan proses yang lebih terarah, transparan, dan profesional.
             </motion.p>
 
             {/* Dual CTA Buttons */}
@@ -171,13 +171,13 @@ export default function Hero({ onSearchClick, onNavigate }: HeroProps) {
             >
               <img
                 src={IMAGES.faridaPortrait}
-                alt="Ibu Farida Listiana - Konsultan Properti Profesional"
+                alt="Ibu Tri Yatmi - Konsultan Properti Profesional"
                 className="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-700"
                 referrerPolicy="no-referrer"
               />
               <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent p-5 text-white">
                 <p className="font-serif font-bold text-lg">
-                  Farida Listiana
+                  Tri Yatmi
                 </p>
                 <p className="text-[11px] text-[#CAF0F8] tracking-wider uppercase font-medium mt-0.5">
                   Konsultan Properti Profesional

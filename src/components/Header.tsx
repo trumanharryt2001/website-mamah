@@ -85,7 +85,7 @@ export default function Header({ activeSection, onNavigate }: HeaderProps) {
 
               <div className="min-w-0">
                 <span className="block font-serif font-extrabold text-[15px] sm:text-xl tracking-wide text-[#03045E] leading-tight truncate">
-                  FARIDA LISTIANA
+                  TRI YATMI
                 </span>
                 <span className="block text-[9px] sm:text-[10px] uppercase tracking-[0.18em] sm:tracking-[0.22em] text-[#0077B6] font-black leading-tight truncate">
                   Konsultan Properti
@@ -199,7 +199,7 @@ export default function Header({ activeSection, onNavigate }: HeaderProps) {
 
                   <div className="min-w-0">
                     <span className="block font-serif font-bold text-base tracking-wide truncate">
-                      FARIDA LISTIANA
+                      TRI YATMI
                     </span>
                     <span className="block text-[9px] uppercase tracking-[0.2em] text-[#CAF0F8] font-semibold truncate">
                       Konsultan Properti
@@ -251,7 +251,7 @@ export default function Header({ activeSection, onNavigate }: HeaderProps) {
                   className="mt-4 w-full inline-flex items-center justify-center gap-2 bg-[#03045E] hover:bg-[#0077B6] text-white py-3.5 rounded-2xl font-bold shadow-md transition-all duration-300"
                 >
                   <WhatsAppIcon className="w-5 h-5" />
-                  <span>Hubungi Ibu Farida</span>
+                  <span>Hubungi Ibu Tri</span>
                   <ArrowRight className="w-4 h-4 text-[#CAF0F8]" />
                 </a>
               </nav>

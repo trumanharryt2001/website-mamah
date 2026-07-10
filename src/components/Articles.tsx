@@ -8,7 +8,7 @@ export default function Articles() {
   const [selectedArticle, setSelectedArticle] = useState<ArticleItem | null>(null);
 
   const handleShareArticle = (art: ArticleItem) => {
-    const text = `Halo Ibu Farida,%20saya%20membaca%20artikel%20berjudul%20"${encodeURIComponent(art.title)}"%20di%20website%20personal%20Ibu.%20Saya%20tertarik%20berkonsultasi%20mengenai%20topik%20ini.`;
+    const text = `Halo Ibu Tri,%20saya%20membaca%20artikel%20berjudul%20"${encodeURIComponent(art.title)}"%20di%20website%20personal%20Ibu.%20Saya%20tertarik%20berkonsultasi%20mengenai%20topik%20ini.`;
     return `https://wa.me/62${CONTACT_INFO.whatsappPrimary}?text=${text}`;
   };
 
@@ -33,7 +33,7 @@ export default function Articles() {
             Artikel &amp; Edukasi Real Estat
           </h2>
           <p className="text-gray-600 sm:text-lg leading-relaxed">
-            Temukan panduan, kalkulasi finansial rill, serta analisis pasar properti Jabodetabek yang dirangkum langsung oleh Farida Listiana.
+            Temukan panduan, kalkulasi finansial rill, serta analisis pasar properti Jabodetabek yang dirangkum langsung oleh Tri Yatmi.
           </p>
         </div>
 
@@ -98,7 +98,7 @@ export default function Articles() {
                     <span className="group-hover:translate-x-1.5 transition-transform">➔</span>
                   </button>
                   <span className="text-[10px] text-slate-400 font-semibold uppercase font-mono">
-                    Oleh Farida L.
+                    Oleh Tri Y.
                   </span>
                 </div>
               </div>
@@ -157,7 +157,7 @@ export default function Articles() {
                   <div className="flex items-center space-x-4 text-xs font-semibold text-slate-400 border-b border-slate-100 pb-4">
                     <span>Diterbitkan: <strong>{selectedArticle.date}</strong></span>
                     <span>Waktu: <strong>{selectedArticle.readTime}</strong></span>
-                    <span>Penulis: <strong>Farida Listiana</strong></span>
+                    <span>Penulis: <strong>Tri Yatmi</strong></span>
                   </div>
 
                   {/* Prose */}
@@ -203,3 +203,4 @@ export default function Articles() {
     </section>
   );
 }
+

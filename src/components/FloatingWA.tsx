@@ -6,12 +6,12 @@ import { CONTACT_INFO } from '../data';
 export default function FloatingWA() {
   const [isOpen, setIsOpen] = useState(false);
 
-  const greetingText = `Halo Ibu Farida, saya mendapatkan informasi dari website personal Anda. Saya ingin berkonsultasi mengenai kebutuhan properti.`;
+  const greetingText = `Halo Ibu Tri, saya mendapatkan informasi dari website personal Anda. Saya ingin berkonsultasi mengenai kebutuhan properti.`;
   const encodedGreeting = encodeURIComponent(greetingText);
 
   const contacts = [
     {
-      name: 'Ibu Farida Listiana',
+      name: 'Ibu Tri Yatmi',
       role: 'WhatsApp Utama (Farida)',
       number: CONTACT_INFO.whatsappPrimary,
       formatted: CONTACT_INFO.whatsappPrimaryFormatted,
@@ -57,7 +57,7 @@ export default function FloatingWA() {
                 FL
               </div>
               <div>
-                <h4 className="font-serif font-black text-xs sm:text-sm tracking-wide">Hubungi Ibu Farida</h4>
+                <h4 className="font-serif font-black text-xs sm:text-sm tracking-wide">Hubungi Ibu Tri</h4>
                 <p className="text-[10px] text-[#CAF0F8] font-medium">Bicara langsung dengan kami</p>
               </div>
             </div>
