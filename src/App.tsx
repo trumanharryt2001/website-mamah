@@ -9,7 +9,7 @@ import PropertySearch, { FilterState } from './components/PropertySearch';
 import PropertySection from './components/PropertySection';
 import About from './components/About';
 import Services from './components/Services';
-import WhyChooseFarida from './components/WhyChooseFarida';
+import WhyChooseTriYatmi from './components/WhyChooseTriYatmi';
 import AreaLayanan from './components/AreaLayanan';
 import WorkProcess from './components/WorkProcess';
 import ConsignmentForm from './components/ConsignmentForm';
@@ -57,7 +57,7 @@ function HomePage() {
       '@context': 'https://schema.org',
       '@type': 'RealEstateAgent',
       'name': 'Tri Yatmi - Konsultan Properti Utama',
-      'image': `${window.location.origin}/images/farida-listiana-professional(2).png`,
+      'image': `${window.location.origin}/images/tri-yatmi-professional.png`,
       'description': 'Temukan properti terbaik bersama Tri Yatmi, konsultan properti profesional terpercaya untuk kebutuhan jual, beli, sewa, serta investasi di Jabodetabek.',
       'telephone': '+62 819-1109-2009',
       'url': window.location.origin,
@@ -194,7 +194,7 @@ function HomePage() {
         <About onNavigate={handleNavigation} />
 
         {/* Value props points highlights */}
-        <WhyChooseFarida />
+        <WhyChooseTriYatmi />
 
         {/* Grid of geographical areas coverages */}
         <AreaLayanan onSelectArea={handleSelectArea} />
@@ -268,3 +268,6 @@ export default function App() {
     </BrowserRouter>
   );
 }
+
+
+

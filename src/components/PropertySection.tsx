@@ -228,12 +228,11 @@ export default function PropertySection({ filters }: PropertySectionProps) {
           </motion.div>
 
           <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-navy">
-            Temukan Properti Pilihan Terbaik
+            Pilihan Properti Sesuai Kebutuhan Anda
           </h2>
 
           <p className="text-gray-600 sm:text-lg leading-relaxed">
-            Pilihan properti yang telah dikurasi ketat berdasarkan kriteria ketepatan
-            lokasi, nilai appraisal pasar yang unggul, dan prospek investasi masa depan.
+            Temukan rekomendasi rumah, tanah, ruko, dan aset properti lain yang dipilih berdasarkan lokasi, legalitas, nilai pasar, serta potensi kebutuhan masa depan.
           </p>
         </div>
 
@@ -805,3 +804,5 @@ export default function PropertySection({ filters }: PropertySectionProps) {
     </section>
   );
 }
+
+

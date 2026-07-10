@@ -14,13 +14,13 @@ export const CONTACT_INFO = {
     instagram: 'https://instagram.com/valtis.property',
     tiktok: 'https://tiktok.com/@valtis.property',
     facebook: 'https://facebook.com/valtisproperty',
-    linkedin: 'https://linkedin.com/in/faridalistiana',
+    linkedin: 'https://linkedin.com/in/triyatmi',
   }
 };
 
 // URL Hasil Generate Gambar AI Sesuai Kebutuhan User
 export const IMAGES = {
-  faridaPortrait: '/images/farida-listiana-professional(2).png',
+  triYatmiPortrait: '/images/tri-yatmi-professional.png',
   heroModernHouse: '/src/assets/images/modern_luxury_property_1782021754035.jpg',
 };
 
@@ -144,42 +144,42 @@ export const SERVICES_DATA: LayananItem[] = [
   {
     id: 'service-1',
     title: 'Pembelian Properti',
-    description: 'Membantu menemukan properti idaman yang paling sesuai dengan lokasi impian, ketersediaan anggaran, dan kebutuhan fungsional harian Anda.',
+    description: 'Membantu menemukan properti yang sesuai dengan kebutuhan, anggaran, lokasi, dan rencana jangka panjang Anda.',
     iconName: 'Home'
   },
   {
     id: 'service-2',
     title: 'Penjualan Properti',
-    description: 'Membantu menentukan strategi harga pasar yang realistis dan program pemasaran berdaya sengat tinggi demi menjangkau pembeli potensial lebih cepat.',
+    description: 'Membantu menyusun strategi pemasaran, menentukan harga yang kompetitif, dan menjangkau calon pembeli yang tepat.',
     iconName: 'DollarSign'
   },
   {
     id: 'service-3',
     title: 'Penyewaan Properti',
-    description: 'Menghubungkan pemilik properti dengan penyewa tepercaya melalui perjanjian hukum yang seimbang, aman, dan saling menguntungkan kedua belah pihak.',
+    description: 'Membantu mempertemukan pemilik properti dan penyewa dengan proses komunikasi, negosiasi, dan administrasi yang lebih aman.',
     iconName: 'Key'
   },
   {
     id: 'service-4',
     title: 'Konsultasi Properti',
-    description: 'Analisis mendalam mengenai potensi investasi properti, perkembangan kapital aset kawasan, tren harga rill, dan perbandingan opsi kelaikan.',
+    description: 'Membantu Anda memahami pilihan properti yang sesuai dengan kebutuhan, anggaran, lokasi, legalitas, dan rencana penggunaan jangka panjang.',
     iconName: 'FileText'
   },
   {
     id: 'service-5',
     title: 'Pemasaran Properti',
-    description: 'Promosi komprehensif lewat sinergi media sosial, portal portal properti digital, jaringan eksklusif pembeli premium, visualisasi foto & kelola video rill.',
+    description: 'Membantu pemilik properti memasarkan aset dengan penyajian informasi yang jelas, foto yang representatif, dan komunikasi yang terarah kepada calon pembeli atau penyewa.',
     iconName: 'Megaphone'
   },
   {
     id: 'service-6',
     title: 'Pendampingan Transaksi',
-    description: 'Pendampingan penuh dalam negosiasi agar capai penawaran terbaik, penyiapan dokumen, koordinasi notaris, hingga serah terima kunci properti.',
+    description: 'Mendampingi proses negosiasi, pengecekan dokumen, koordinasi dengan pihak terkait, hingga transaksi berjalan lebih tertib, aman, dan nyaman.',
     iconName: 'Award'
   }
 ];
 
-// MENGAPA MEMILIH FARIDA
+// MENGAPA MEMILIH TRI YATMI
 export const WHY_CHOOSE_REASONS = [
   'Konsultasi tulus berdasarkan kebutuhan rill Anda, bukan sekadar memaksakan target penjualan properti.',
   'Informasi mengenai spesifikasi, legalitas sertifikat, dan kondisi lingkungan disampaikan secara jelas dan 100% transparan.',
@@ -271,4 +271,7 @@ export const ARTICLES_DATA: ArticleItem[] = [
     readTime: '6 menit baca'
   }
 ];
+
+
+
 

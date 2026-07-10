@@ -9,7 +9,7 @@ interface HeroProps {
 }
 
 export default function Hero({ onSearchClick, onNavigate }: HeroProps) {
-  const wsMainLink = `https://wa.me/62${CONTACT_INFO.whatsappPrimary}?text=Halo%20Ibu%20Farida%2C%20saya%20mendapatkan%20informasi%20dari%20website%20Anda.%20Saya%20ingin%20berkonsultasi%20mengenai%20kebutuhan%20properti.`;
+  const wsMainLink = `https://wa.me/62${CONTACT_INFO.whatsappPrimary}?text=Halo%20Ibu%20Tri%20Yatmi%2C%20saya%20mendapatkan%20informasi%20dari%20website%20Anda.%20Saya%20ingin%20berkonsultasi%20mengenai%20kebutuhan%20properti.`;
 
   return (
     <section id="home" className="relative pt-24 sm:pt-28 md:pt-36 pb-16 md:pb-24 overflow-hidden bg-gradient-to-b from-white via-[#f0f9ff]/70 to-[#CAF0F8]/40">
@@ -49,8 +49,8 @@ export default function Hero({ onSearchClick, onNavigate }: HeroProps) {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#03045E] leading-[1.15]"
             >
-              Temukan Properti yang <br className="hidden sm:inline" />
-              <span className="italic text-[#0077B6] font-normal">Tepat untuk Masa Depan</span> Anda
+              Memberikan Anda Solusi Properti yang <br className="hidden sm:inline" />
+              <span className="italic text-[#0077B6] font-normal">Tepat dan Transparan</span>
             </motion.h1>
 
             {/* Subheading */}
@@ -60,7 +60,7 @@ export default function Hero({ onSearchClick, onNavigate }: HeroProps) {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-base sm:text-lg text-gray-600 max-w-xl leading-relaxed"
             >
-              Tri Yatmi membantu Anda membeli, menjual, dan menyewakan properti dengan proses yang lebih terarah, transparan, dan profesional.
+             Tri Yatmi mendampingi kebutuhan jual, beli, sewa, dan investasi properti dengan proses yang lebih jelas, responsif, dan sesuai kebutuhan klien.
             </motion.p>
 
             {/* Dual CTA Buttons */}
@@ -118,7 +118,7 @@ export default function Hero({ onSearchClick, onNavigate }: HeroProps) {
               </div>
             </motion.div>
 
-            {/* Hubungi Farida Details */}
+            {/* Hubungi Tri Yatmi Details */}
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -127,7 +127,7 @@ export default function Hero({ onSearchClick, onNavigate }: HeroProps) {
             >
               <p className="text-xs font-bold uppercase tracking-widest text-[#0077B6] mb-2 flex items-center space-x-1.5">
                 <Phone className="w-3.5 h-3.5" />
-                <span>Hubungi Farida :</span>
+                <span>Hubungi Tri Yatmi :</span>
               </p>
               <div className="flex flex-col sm:flex-row sm:space-x-6 text-sm">
                 <div>
@@ -136,12 +136,12 @@ export default function Hero({ onSearchClick, onNavigate }: HeroProps) {
                     {CONTACT_INFO.whatsappPrimaryFormatted}
                   </a>
                 </div>
-                <div className="sm:border-l sm:border-gray-200 sm:pl-6 mt-1 sm:mt-0">
+                {/* <div className="sm:border-l sm:border-gray-200 sm:pl-6 mt-1 sm:mt-0">
                   <span className="text-gray-500 mr-1.5">ALTERNATIF:</span>
                   <a href={`tel:${CONTACT_INFO.whatsappSecondary}`} className="font-mono font-bold text-navy hover:text-[#0077B6] transition-colors">
                     {CONTACT_INFO.whatsappSecondaryFormatted}
                   </a>
-                </div>
+                </div> */}
               </div>
             </motion.div>
           </div>
@@ -170,7 +170,7 @@ export default function Hero({ onSearchClick, onNavigate }: HeroProps) {
               className="relative w-full max-w-[340px] sm:max-w-[380px] rounded-2xl overflow-hidden shadow-2xl border-4 border-white aspect-[3/4]"
             >
               <img
-                src={IMAGES.faridaPortrait}
+                src={IMAGES.triYatmiPortrait}
                 alt="Ibu Tri Yatmi - Konsultan Properti Profesional"
                 className="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-700"
                 referrerPolicy="no-referrer"
@@ -217,3 +217,6 @@ export default function Hero({ onSearchClick, onNavigate }: HeroProps) {
     </section>
   );
 }
+
+
+

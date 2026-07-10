@@ -36,7 +36,7 @@ export const AdminLogin: React.FC = () => {
       <div className="w-full max-w-md space-y-8 rounded-2xl bg-white p-8 shadow-lg">
         <div>
           <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-[#03045E]">
-            Login Admin Farida
+            Login Admin Tri Yatmi
           </h2>
           <p className="mt-2 text-center text-sm text-gray-600">
             Masuk untuk mengelola listing properti cloud
@@ -91,3 +91,5 @@ export const AdminLogin: React.FC = () => {
 };
 
 export default AdminLogin;
+
+

@@ -14,7 +14,7 @@ export default function About({ onNavigate }: AboutProps) {
     {
       value: '20+',
       label: 'Tahun Pengalaman',
-      description: 'Lebih dari dua dekade di bidang properti',
+      description: 'Pengalaman panjang di bidang properti',
       icon: Award,
     },
     {
@@ -26,7 +26,7 @@ export default function About({ onNavigate }: AboutProps) {
     {
       value: 'A–Z',
       label: 'Pendampingan',
-      description: 'Dari konsultasi hingga transaksi',
+      description: 'Dari konsultasi awal hingga transaksi',
       icon: CheckCircle,
     },
     {
@@ -37,16 +37,15 @@ export default function About({ onNavigate }: AboutProps) {
     },
   ];
 
-  const wsLink = `https://wa.me/62${CONTACT_INFO.whatsappPrimary}?text=Halo%20Ibu%20Farida%20Listiana%2C%20saya%20membaca%20biodata%20Anda%20di%20website%20personal%20Ibu.%20Saya%20tertarik%20untuk%20berkenalan%20dan%20berkonsultasi.`;
+  const wsLink = `https://wa.me/62${CONTACT_INFO.whatsappPrimary}?text=Halo%20Ibu%20Tri%20Yatmi%2C%20saya%20membaca%20profil%20Anda%20di%20website%20personal%20Ibu.%20Saya%20ingin%20berkonsultasi%20mengenai%20kebutuhan%20properti.`;
 
   return (
     <section id="tentang" className="py-20 sm:py-24 bg-gradient-to-b from-slate-50 to-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
           
-          {/* Sisi Kiri: Foto Farida Dengan Hiasan Geometris */}
+          {/* Sisi Kiri: Foto Tri Yatmi Dengan Hiasan Geometris */}
           <div className="lg:col-span-5 relative flex justify-center items-center">
-            {/* Bentuk dekoratif di belakang foto */}
             <div className="absolute w-[95%] aspect-square bg-[#90E0EF]/40 rounded-3xl -top-6 -left-6 -z-10 filter blur-sm" />
             <div className="absolute w-[85%] aspect-square bg-[#00B4D8]/10 rounded-[40px] -bottom-6 -right-6 -z-10" />
 
@@ -58,15 +57,16 @@ export default function About({ onNavigate }: AboutProps) {
               className="relative w-full max-w-[360px] rounded-2xl overflow-hidden shadow-2xl border-4 border-white aspect-[3/4]"
             >
               <img
-                src={IMAGES.faridaPortrait}
+                src={IMAGES.triYatmiPortrait}
                 alt="Tri Yatmi, Konsultan Properti Profesional"
                 className="w-full h-full object-cover"
                 loading="lazy"
                 referrerPolicy="no-referrer"
               />
+
               <div className="absolute inset-0 bg-gradient-to-t from-navy/95 via-navy/30 to-transparent p-6 flex flex-col justify-end text-white">
                 <blockquote className="text-xs italic text-[#CAF0F8] mb-2 leading-relaxed opacity-90">
-                  "Lebih dari 20 tahun mendampingi klien memilih dan memasarkan properti melalui pengalaman, komunikasi, dan pertimbangan yang matang."
+                  "Membantu klien memahami pilihan properti dengan informasi yang jelas, pendekatan yang personal, dan proses yang lebih terarah."
                 </blockquote>
                 <p className="font-serif font-extrabold text-lg text-white">Tri Yatmi</p>
                 <p className="text-[10px] uppercase font-bold text-[#90E0EF] tracking-widest mt-0.5">
@@ -78,7 +78,7 @@ export default function About({ onNavigate }: AboutProps) {
               </div>
             </motion.div>
 
-            {/* FLOATING CARD KECIL DI FOTO (MENGGUNAKAN SVG PILIHANMU) */}
+            {/* Floating Card */}
             <motion.div
               initial={{ scale: 0.5, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
@@ -106,8 +106,9 @@ export default function About({ onNavigate }: AboutProps) {
           <div className="lg:col-span-7 space-y-6 text-left">
             <div className="space-y-3">
               <span className="inline-block bg-very-light-blue text-[#0077B6] font-bold text-xs uppercase tracking-widest px-3.5 py-1.5 rounded-full">
-                Tentang Farida
+                Tentang Tri Yatmi
               </span>
+
               <h2 className="font-serif text-3xl sm:text-4xl font-bold text-navy leading-tight">
                 Pendamping Properti yang Mengutamakan Kebutuhan Klien
               </h2>
@@ -115,10 +116,11 @@ export default function About({ onNavigate }: AboutProps) {
 
             <div className="space-y-4 text-slate-600 sm:text-lg leading-relaxed text-justify">
               <p>
-                <strong>Tri Yatmi</strong> adalah konsultan properti profesional dengan pengalaman lebih dari 20 tahun dalam mendampingi kebutuhan jual, beli, dan sewa properti. Pengalaman panjang tersebut membentuk pemahaman yang kuat terhadap perkembangan pasar, karakter lokasi, penentuan harga, kebutuhan klien, serta proses transaksi properti.
+                <strong>Tri Yatmi</strong> adalah konsultan properti profesional yang membantu klien dalam kebutuhan jual, beli, sewa, dan pemasaran properti. Dengan pengalaman lebih dari 20 tahun, Tri Yatmi memahami pentingnya informasi yang jelas, komunikasi yang responsif, serta arahan yang tepat sebelum klien mengambil keputusan.
               </p>
+
               <p>
-                Berbekal wawasan pasar dan jaringan profesional yang dibangun selama lebih dari dua dekade, Farida memberikan rekomendasi yang terukur dan relevan. Setiap klien mendapatkan pendampingan personal sejak konsultasi awal, pencarian atau pemasaran properti, proses survei, negosiasi, hingga koordinasi transaksi bersama pihak terkait.
+                Setiap proses pendampingan dilakukan secara personal, mulai dari konsultasi awal, pemetaan kebutuhan, pencarian atau pemasaran properti, survei lokasi, negosiasi, hingga koordinasi dokumen dan transaksi bersama pihak terkait. Fokus utamanya adalah membantu klien menjalani proses properti dengan lebih nyaman, terarah, dan transparan.
               </p>
             </div>
 
@@ -149,7 +151,6 @@ export default function About({ onNavigate }: AboutProps) {
                 <span>Kenal Lebih Dekat</span>
               </button>
               
-              {/* TOMBOL WHATSAPP UTAMA (MENGGUNAKAN PILIHANMU) */}
               <a
                 href={wsLink}
                 target="_blank"
@@ -171,11 +172,10 @@ export default function About({ onNavigate }: AboutProps) {
         </div>
       </div>
 
-      {/* Profile Modal Dialog for "Kenal Lebih Dekat" */}
+      {/* Profile Modal Dialog */}
       <AnimatePresence>
         {showFullCV && (
           <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
-            {/* Backdrop */}
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 0.6 }}
@@ -190,7 +190,6 @@ export default function About({ onNavigate }: AboutProps) {
               exit={{ opacity: 0, scale: 0.95, y: 15 }}
               className="bg-white rounded-3xl overflow-hidden max-w-2xl w-full max-h-[85vh] flex flex-col relative z-10 border border-slate-200 text-left shadow-2xl"
             >
-              {/* Tombol Tutup */}
               <button
                 onClick={() => setShowFullCV(false)}
                 className="absolute top-4 right-4 text-slate-400 hover:text-slate-800 p-1.5 rounded-full bg-slate-50 hover:bg-slate-100 z-20 transition-colors"
@@ -199,48 +198,66 @@ export default function About({ onNavigate }: AboutProps) {
                 <X className="w-5 h-5" />
               </button>
 
-              {/* Area Konten */}
               <div className="p-6 sm:p-8 overflow-y-auto space-y-6 scrollbar-thin scrollbar-thumb-slate-200">
-                
-                {/* Header Profile */}
                 <div className="flex items-center space-x-4 border-b border-slate-100 pb-5">
                   <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-full overflow-hidden border-2 border-slate-150 flex-shrink-0">
-                    <img src={IMAGES.faridaPortrait} alt="Portrait Tri Yatmi" className="w-full h-full object-cover" />
+                    <img
+                      src={IMAGES.triYatmiPortrait}
+                      alt="Portrait Tri Yatmi"
+                      className="w-full h-full object-cover"
+                    />
                   </div>
+
                   <div>
-                    <h3 className="font-serif text-xl sm:text-2xl font-black text-navy leading-tight">Tri Yatmi</h3>
-                    <p className="text-xs text-slate-500 font-bold uppercase tracking-wider mt-0.5">Konsultan Properti Profesional</p>
-                    <p className="text-[10px] text-slate-400">Bagian dari Valtis Property</p>
+                    <h3 className="font-serif text-xl sm:text-2xl font-black text-navy leading-tight">
+                      Tri Yatmi
+                    </h3>
+                    <p className="text-xs text-slate-500 font-bold uppercase tracking-wider mt-0.5">
+                      Konsultan Properti Profesional
+                    </p>
+                    <p className="text-[10px] text-slate-400">
+                      Bagian dari Valtis Property
+                    </p>
                   </div>
                 </div>
 
-                {/* CV / Bio Details */}
                 <div className="space-y-4 text-sm text-slate-600 leading-relaxed text-justify">
                   <p>
-                    Sebagai seorang <strong>kolega dan konsultan real estate utama</strong> yang bermitra dengan kantor agen properti tepercaya <strong>Valtis Property</strong>, Tri Yatmi telah mendedikasikan bertahun-tahun masa baktinya untuk mempelajari denyut pasar real estat utama Indonesia, khususnya kawasan residensial serta komersial premium Jabodetabek seperti BSD City, Gading Serpong, Alam Sutera, Bintaro, dan Jakarta Raya.
-                  </p>
-                  <p>
-                    Visi utama beliau adalah <strong>merombak cara transaksi properti konvensional menjadi transparan dan tulus</strong>. Oleh karena itu, Farida bersama Valtis Property mendedikasikan pilar-pilar integritas tepercaya, pemetaan kebutuhan yang kritis, respons pelayanan yang cepat, dan pendampingan dokumen legal yang aman dari sengketa hukum.
+                    Tri Yatmi berfokus pada pendampingan properti yang personal dan mudah dipahami, baik untuk kebutuhan pembelian, penjualan, penyewaan, maupun pemasaran aset properti. Setiap klien dibantu untuk memahami kondisi pasar, potensi lokasi, kesesuaian harga, serta hal-hal penting yang perlu diperhatikan sebelum mengambil keputusan.
                   </p>
 
-                  <h4 className="text-xs font-bold uppercase tracking-widest text-[#0077B6] pt-2">Nilai-Nilai Kerja Farida :</h4>
+                  <p>
+                    Dalam proses kerja bersama Valtis Property, Tri Yatmi mengutamakan transparansi informasi, komunikasi yang jelas, dan pendampingan yang terarah. Mulai dari pencarian properti, pemasaran aset, survei lokasi, negosiasi, pengecekan dokumen, hingga koordinasi transaksi, seluruh tahapan diarahkan agar klien merasa lebih aman dan percaya diri.
+                  </p>
+
+                  <h4 className="text-xs font-bold uppercase tracking-widest text-[#0077B6] pt-2">
+                    Nilai-Nilai Kerja Tri Yatmi:
+                  </h4>
+
                   <ul className="space-y-3 text-xs font-semibold text-slate-700">
                     <li className="flex items-start space-x-2">
                       <CheckCircle className="w-4 h-4 text-cyan-blue flex-shrink-0 mt-0.5" />
-                      <span><strong>Kredibilitas Hukum Tangguh</strong>: Meneliti status sertifikat (SHM/HGB) bebas dari agunan atau sengketa sebelum dipasarkan.</span>
+                      <span>
+                        <strong>Transparansi Informasi:</strong> Menyampaikan informasi properti secara jelas, termasuk kondisi aset, lokasi, legalitas, dan hal penting lain yang perlu dipertimbangkan.
+                      </span>
                     </li>
+
                     <li className="flex items-start space-x-2">
                       <CheckCircle className="w-4 h-4 text-cyan-blue flex-shrink-0 mt-0.5" />
-                      <span><strong>Asesmen Appraisal Independen</strong>: Memberikan taksiran harga properti jujur berdasarkan realitas transaksi sekeliling wilayah.</span>
+                      <span>
+                        <strong>Rekomendasi Sesuai Kebutuhan:</strong> Membantu klien memilih atau memasarkan properti berdasarkan kebutuhan, anggaran, tujuan, serta kondisi pasar yang relevan.
+                      </span>
                     </li>
+
                     <li className="flex items-start space-x-2">
                       <CheckCircle className="w-4 h-4 text-cyan-blue flex-shrink-0 mt-0.5" />
-                      <span><strong>Koneksi Jaringan Luas</strong>: Bekerja sama harmonis dengan institusi KPR terkemuka dan notaris senior mitra tepercaya.</span>
+                      <span>
+                        <strong>Pendampingan Responsif:</strong> Menjaga komunikasi selama proses konsultasi, survei, negosiasi, hingga transaksi agar setiap tahapan berjalan lebih tertib dan nyaman.
+                      </span>
                     </li>
                   </ul>
                 </div>
 
-                {/* TOMBOL WHATSAPP DI DALAM BOX MODAL (MENGGUNAKAN PILIHANMU w-4 h-4) */}
                 <div className="pt-4 border-t border-slate-100 flex justify-end">
                   <a
                     href={wsLink}
@@ -256,10 +273,9 @@ export default function About({ onNavigate }: AboutProps) {
                     >
                       <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
                     </svg>
-                    <span>Konsul Privat via WA</span>
+                    <span>Konsultasi via WhatsApp</span>
                   </a>
                 </div>
-
               </div>
             </motion.div>
           </div>

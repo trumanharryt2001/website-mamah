@@ -91,3 +91,5 @@ export interface Property {
   property_images?: PropertyImage[];
 }
 
+
+

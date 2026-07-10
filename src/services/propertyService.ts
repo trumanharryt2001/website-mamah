@@ -23,3 +23,5 @@ export const propertyService = {
     return (data || []) as Property[];
   },
 };
+
+

@@ -12,18 +12,18 @@ export default function FloatingWA() {
   const contacts = [
     {
       name: 'Ibu Tri Yatmi',
-      role: 'WhatsApp Utama (Farida)',
+      role: 'WhatsApp Utama \(Tri Yatmi\)',
       number: CONTACT_INFO.whatsappPrimary,
       formatted: CONTACT_INFO.whatsappPrimaryFormatted,
       status: 'Online',
     },
-    {
-      name: 'Konsultan pendamping',
-      role: 'WhatsApp Alternatif',
-      number: CONTACT_INFO.whatsappSecondary,
-      formatted: CONTACT_INFO.whatsappSecondaryFormatted,
-      status: 'Online',
-    },
+    // {
+    //   name: 'Konsultan pendamping',
+    //   role: 'WhatsApp Alternatif',
+    //   number: CONTACT_INFO.whatsappSecondary,
+    //   formatted: CONTACT_INFO.whatsappSecondaryFormatted,
+    //   status: 'Online',
+    // },
   ];
 
   // SVG WhatsApp Kustom yang Bersih & Presisi
@@ -132,3 +132,5 @@ export default function FloatingWA() {
     </div>
   );
 }
+
+

@@ -18,7 +18,7 @@ export default function Footer({ onNavigate }: FooterProps) {
     { name: 'Beranda', id: 'home' },
     { name: 'Properti', id: 'properti' },
     { name: 'Layanan', id: 'layanan' },
-    { name: 'Tentang Farida', id: 'tentang' },
+    { name: 'Tentang Tri Yatmi', id: 'tentang' },
     { name: 'Titip Properti', id: 'titip' },
     { name: 'Artikel', id: 'artikel' },
   ];
@@ -35,7 +35,7 @@ export default function Footer({ onNavigate }: FooterProps) {
               className="flex items-center space-x-2 text-left focus:outline-none focus:ring-2 focus:ring-cyan-blue rounded-md p-1"
             >
               <div className="bg-white text-navy font-serif font-black text-xl px-2.5 py-1 rounded">
-                FL
+                TY
               </div>
               <div>
                 <span className="block font-serif font-extrabold text-lg sm:text-xl tracking-wider text-white">
@@ -136,7 +136,7 @@ export default function Footer({ onNavigate }: FooterProps) {
             </nav>
           </div>
 
-          {/* Column 3: Contact details Farida */}
+          {/* Column 3: Contact details Tri Yatmi */}
           <div className="col-span-1 md:col-span-5 text-left space-y-4">
             <h4 className="font-serif font-black text-white text-md tracking-wide">
               Kontak Konsultan
@@ -272,4 +272,6 @@ export default function Footer({ onNavigate }: FooterProps) {
     </footer>
   );
 }
+
+
 

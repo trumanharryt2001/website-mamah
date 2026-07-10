@@ -416,7 +416,7 @@ Mohon bantuannya untuk konsultasi dan strategi pemasaran properti tersebut. Teri
 
           <p className="leading-relaxed text-blue-100 sm:text-lg">
             Titipkan aset properti Anda kepada Ibu Tri
-            Listiana, konsultan properti di Valtis Property,
+            Tri Yatmi, konsultan properti di Valtis Property,
             dan dapatkan strategi pemasaran yang sesuai agar
             properti lebih mudah menjangkau calon pembeli atau
             penyewa.
@@ -883,7 +883,7 @@ Mohon bantuannya untuk konsultasi dan strategi pemasaran properti tersebut. Teri
                     <span>
                       {isUploading
                         ? 'Mengunggah Foto Properti...'
-                        : 'Kirim Data Properti & Hubungi Farida'}
+                        : 'Kirim Data Properti & Hubungi Tri Yatmi'}
                     </span>
                   </button>
                 </div>
@@ -938,4 +938,6 @@ Mohon bantuannya untuk konsultasi dan strategi pemasaran properti tersebut. Teri
     </section>
   );
 }
+
+
 

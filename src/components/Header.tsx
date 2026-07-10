@@ -60,7 +60,7 @@ export default function Header({ activeSection, onNavigate }: HeaderProps) {
     onNavigate(id);
   };
 
-  const wsLink = `https://wa.me/62${CONTACT_INFO.whatsappPrimary}?text=Halo%20Ibu%20Farida%2C%20saya%20mendapatkan%20informasi%20dari%20website%20personal%20Ibu.%20Saya%20ingin%20berkonsultasi%20mengenai%20kebutuhan%20properti.`;
+  const wsLink = `https://wa.me/62${CONTACT_INFO.whatsappPrimary}?text=Halo%20Ibu%20Tri%20Yatmi%2C%20saya%20mendapatkan%20informasi%20dari%20website%20personal%20Ibu.%20Saya%20ingin%20berkonsultasi%20mengenai%20kebutuhan%20properti.`;
 
   return (
     <>
@@ -80,7 +80,7 @@ export default function Header({ activeSection, onNavigate }: HeaderProps) {
               className="flex items-center gap-2.5 text-left min-w-0 focus:outline-none focus:ring-2 focus:ring-[#00B4D8] rounded-xl"
             >
               <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-[#03045E] text-white font-serif font-black text-lg sm:text-xl flex items-center justify-center shadow-md shrink-0">
-                FL
+                TY
               </div>
 
               <div className="min-w-0">
@@ -262,3 +262,5 @@ export default function Header({ activeSection, onNavigate }: HeaderProps) {
     </>
   );
 }
+
+

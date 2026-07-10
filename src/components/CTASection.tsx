@@ -8,7 +8,7 @@ interface CTASectionProps {
 }
 
 export default function CTASection({ onNavigate }: CTASectionProps) {
-  const wsMainLink = `https://wa.me/62${CONTACT_INFO.whatsappPrimary}?text=Halo%20Ibu%20Farida%2C%20saya%20mendapatkan%20informasi%20dari%20website%20personal%20Ibu.%20Saya%20ingin%20berkonsultasi%20mengenai%20kebutuhan%20properti.`;
+  const wsMainLink = `https://wa.me/62${CONTACT_INFO.whatsappPrimary}?text=Halo%20Ibu%20Tri%20Yatmi%2C%20saya%20mendapatkan%20informasi%20dari%20website%20personal%20Ibu.%20Saya%20ingin%20berkonsultasi%20mengenai%20kebutuhan%20properti.`;
 
   return (
     <section className="py-20 sm:py-24 bg-gradient-to-b from-[#CAF0F8]/30 via-white to-white relative overflow-hidden select-none border-t border-slate-100/50">
@@ -26,7 +26,7 @@ export default function CTASection({ onNavigate }: CTASectionProps) {
             </span>
             
             <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight leading-tight">
-              Mulai Perjalanan Properti Anda Bersama Farida
+              Mulai Perjalanan Properti Anda Bersama Tri Yatmi
             </h2>
             
             <p className="text-blue-100 sm:text-lg leading-relaxed">
@@ -72,3 +72,5 @@ export default function CTASection({ onNavigate }: CTASectionProps) {
     </section>
   );
 }
+
+

@@ -47,10 +47,10 @@ export default function Services() {
             LAYANAN UTAMA
           </motion.div>
           <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-navy">
-            Layanan Properti Profesional &amp; Tepercaya
+            Layanan Properti untuk Jual, Beli, &amp; sewa
           </h2>
           <p className="text-gray-600 sm:text-lg leading-relaxed">
-            Pendampingan menyeluruh yang adaptif untuk segala kebutuhan jual, beli, sewa, serta instrumen investasi aset properti Anda.
+            Tri Yatmi membantu Anda mengambil keputusan properti dengan pendampingan yang jelas, terarah, dan profesional dari awal hingga proses transaksi.
           </p>
         </div>
 
@@ -105,4 +105,6 @@ export default function Services() {
     </section>
   );
 }
+
+
 
