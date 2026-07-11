@@ -38,27 +38,27 @@ function HomePage() {
 
   // 1. Synchronize SEO Metas & Structured LocalBusiness Schema
   useEffect(() => {
-    document.title = 'Tri Yatmi | Konsultan Properti Utama & Agen Profesional';
+    document.title = 'Triyatmi | Konsultan Properti Utama & Agen Profesional';
     
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
       metaDescription.setAttribute(
         'content',
-        'Website personal resmi Tri Yatmi, konsultan properti profesional terpercaya (terafiliasi dengan Valtis Property) untuk kebutuhan jual, beli, sewa, serta investasi.'
+        'Website personal resmi Triyatmi, konsultan properti profesional terpercaya (terafiliasi dengan Valtis Property) untuk kebutuhan jual, beli, sewa, serta investasi.'
       );
     } else {
       const meta = document.createElement('meta');
       meta.name = 'description';
-      meta.content = 'Website personal resmi Tri Yatmi, konsultan properti profesional terpercaya (terafiliasi dengan Valtis Property) untuk kebutuhan jual, beli, sewa, serta investasi.';
+      meta.content = 'Website personal resmi Triyatmi, konsultan properti profesional terpercaya (terafiliasi dengan Valtis Property) untuk kebutuhan jual, beli, sewa, serta investasi.';
       document.head.appendChild(meta);
     }
 
     const jsonLd = {
       '@context': 'https://schema.org',
       '@type': 'RealEstateAgent',
-      'name': 'Tri Yatmi - Konsultan Properti Utama',
+      'name': 'Triyatmi - Konsultan Properti Utama',
       'image': `${window.location.origin}/images/tri-yatmi-professional.png`,
-      'description': 'Temukan properti terbaik bersama Tri Yatmi, konsultan properti profesional terpercaya untuk kebutuhan jual, beli, sewa, serta investasi di Jabodetabek.',
+      'description': 'Temukan properti terbaik bersama Triyatmi, konsultan properti profesional terpercaya untuk kebutuhan jual, beli, sewa, serta investasi di Jabodetabek.',
       'telephone': '+62 819-1109-2009',
       'url': window.location.origin,
       'address': {
@@ -268,6 +268,7 @@ export default function App() {
     </BrowserRouter>
   );
 }
+
 
 
 

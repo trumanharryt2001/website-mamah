@@ -33,7 +33,7 @@ export default function Articles() {
             Artikel &amp; Edukasi Real Estat
           </h2>
           <p className="text-gray-600 sm:text-lg leading-relaxed">
-            Temukan panduan, kalkulasi finansial rill, serta analisis pasar properti Jabodetabek yang dirangkum langsung oleh Tri Yatmi.
+            Temukan panduan, kalkulasi finansial rill, serta analisis pasar properti Jabodetabek yang dirangkum langsung oleh Triyatmi.
           </p>
         </div>
 
@@ -157,7 +157,7 @@ export default function Articles() {
                   <div className="flex items-center space-x-4 text-xs font-semibold text-slate-400 border-b border-slate-100 pb-4">
                     <span>Diterbitkan: <strong>{selectedArticle.date}</strong></span>
                     <span>Waktu: <strong>{selectedArticle.readTime}</strong></span>
-                    <span>Penulis: <strong>Tri Yatmi</strong></span>
+                    <span>Penulis: <strong>Triyatmi</strong></span>
                   </div>
 
                   {/* Prose */}
@@ -203,6 +203,7 @@ export default function Articles() {
     </section>
   );
 }
+
 
 
 

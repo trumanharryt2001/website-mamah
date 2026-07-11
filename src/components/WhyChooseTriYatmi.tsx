@@ -55,11 +55,11 @@ export default function WhyChooseTriYatmi() {
               </span>
 
               <h2 className="font-serif text-3xl sm:text-4xl font-bold text-navy leading-tight">
-                Mengapa Berkonsultasi dengan Tri Yatmi?
+                Mengapa Berkonsultasi dengan Triyatmi?
               </h2>
 
               <p className="text-gray-500 text-sm sm:text-base leading-relaxed">
-                Tri Yatmi membantu proses jual, beli, sewa, dan pemasaran properti dengan pendekatan yang personal, informatif, dan terarah agar setiap keputusan lebih nyaman untuk diambil.
+                Triyatmi membantu proses jual, beli, sewa, dan pemasaran properti dengan pendekatan yang personal, informatif, dan terarah agar setiap keputusan lebih nyaman untuk diambil.
               </p>
             </div>
 
@@ -109,7 +109,7 @@ export default function WhyChooseTriYatmi() {
             >
               <img
                 src="/images/tri-yatmi/tria-consultation.png"
-                alt="Tri Yatmi sedang berdiskusi dengan klien properti"
+                alt="Triyatmi sedang berdiskusi dengan klien properti"
                 className="w-full h-full object-cover transform hover:scale-102 transition-transform duration-500"
                 loading="lazy"
                 referrerPolicy="no-referrer"

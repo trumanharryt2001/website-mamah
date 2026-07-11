@@ -189,7 +189,7 @@ export const AdminDashboard: React.FC = () => {
           <div className="bg-white/20 p-1.5 rounded-lg">
             <Home className="w-5 h-5 text-[#CAF0F8]" />
           </div>
-          <span className="font-serif font-bold text-lg sm:text-xl tracking-tight">Admin Tri Yatmi</span>
+          <span className="font-serif font-bold text-lg sm:text-xl tracking-tight">Admin Triyatmi</span>
         </div>
         <button
           onClick={handleLogout}
@@ -436,5 +436,6 @@ export const AdminDashboard: React.FC = () => {
 };
 
 export default AdminDashboard;
+
 
 

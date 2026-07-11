@@ -18,7 +18,7 @@ export default function Footer({ onNavigate }: FooterProps) {
     { name: 'Beranda', id: 'home' },
     { name: 'Properti', id: 'properti' },
     { name: 'Layanan', id: 'layanan' },
-    { name: 'Tentang Tri Yatmi', id: 'tentang' },
+    { name: 'Tentang Triyatmi', id: 'tentang' },
     { name: 'Titip Properti', id: 'titip' },
     { name: 'Artikel', id: 'artikel' },
   ];
@@ -39,7 +39,7 @@ export default function Footer({ onNavigate }: FooterProps) {
               </div>
               <div>
                 <span className="block font-serif font-extrabold text-lg sm:text-xl tracking-wider text-white">
-                  TRI YATMI
+                  Triyatmi
                 </span>
                 <span className="block text-[9px] uppercase tracking-[0.2em] text-[#CAF0F8] font-bold -mt-1">
                   KONSULTAN PROPERTI
@@ -100,7 +100,7 @@ export default function Footer({ onNavigate }: FooterProps) {
                 href={CONTACT_INFO.social.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="LinkedIn Tri Yatmi"
+                aria-label="LinkedIn Triyatmi"
                 className="w-8 h-8 rounded-full bg-white/5 hover:bg-white/10 hover:text-white flex items-center justify-center transition-colors border border-white/10"
               >
                 <Linkedin className="w-4 h-4" />
@@ -136,7 +136,7 @@ export default function Footer({ onNavigate }: FooterProps) {
             </nav>
           </div>
 
-          {/* Column 3: Contact details Tri Yatmi */}
+          {/* Column 3: Contact details Triyatmi */}
           <div className="col-span-1 md:col-span-5 text-left space-y-4">
             <h4 className="font-serif font-black text-white text-md tracking-wide">
               Kontak Konsultan
@@ -192,7 +192,7 @@ export default function Footer({ onNavigate }: FooterProps) {
         {/* Footer Meta & Copy */}
         <div className="pt-8 flex flex-col sm:flex-row items-center sm:justify-between text-[11px] text-slate-400">
           <div className="text-center sm:text-left">
-            <span>© 2026 Tri Yatmi. Seluruh hak dilindungi. All rights reserved. Partner of Valtis Property.</span>
+            <span>© 2026 Triyatmi. Seluruh hak dilindungi. All rights reserved. Partner of Valtis Property.</span>
           </div>
 
           <div className="flex items-center space-x-4 mt-4 sm:mt-0">
@@ -245,13 +245,13 @@ export default function Footer({ onNavigate }: FooterProps) {
 
                 <div className="text-xs text-slate-500 leading-relaxed space-y-3">
                   <p>
-                    Ibu Tri Yatmi (sebagai konsultan properti profesional terafiliasi dengan Valtis Property) menghargai penuh keamanan dan kedaulatan data privasi dari setiap pengunjung situs kami. Seluruh data identitas, kontak WhatsApp, email, sertifikat properti, ataupun lampiran foto foto properti yang Anda kirimkan melalui formulir titip jual/sewa diletakkan semata-mata untuk memverifikasi kesahihan fisik aset dan memproses strategi pemasaran.
+                    Ibu Triyatmi (sebagai konsultan properti profesional terafiliasi dengan Valtis Property) menghargai penuh keamanan dan kedaulatan data privasi dari setiap pengunjung situs kami. Seluruh data identitas, kontak WhatsApp, email, sertifikat properti, ataupun lampiran foto foto properti yang Anda kirimkan melalui formulir titip jual/sewa diletakkan semata-mata untuk memverifikasi kesahihan fisik aset dan memproses strategi pemasaran.
                   </p>
                   <p>
-                    Kami menjamin data Anda tidak akan dijual, dipertukarkan, ataupun disalahgunakan oleh pihak ketiga di luar entitas agen Tri Yatmi &amp; Valtis Property tanpa izin eksplisit tertulis dari Anda.
+                    Kami menjamin data Anda tidak akan dijual, dipertukarkan, ataupun disalahgunakan oleh pihak ketiga di luar entitas agen Triyatmi &amp; Valtis Property tanpa izin eksplisit tertulis dari Anda.
                   </p>
                   <p>
-                    Jika di kemudian hari Anda memutuskan untuk menarik kembali penayangan/pendataan properti Anda atau ingin menghapus data kontak Anda dari database kami, silakan hubungi langsung Ibu Tri Yatmi via WhatsApp.
+                    Jika di kemudian hari Anda memutuskan untuk menarik kembali penayangan/pendataan properti Anda atau ingin menghapus data kontak Anda dari database kami, silakan hubungi langsung Ibu Triyatmi via WhatsApp.
                   </p>
                 </div>
 
@@ -272,6 +272,7 @@ export default function Footer({ onNavigate }: FooterProps) {
     </footer>
   );
 }
+
 
 
 

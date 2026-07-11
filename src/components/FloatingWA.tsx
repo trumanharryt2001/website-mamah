@@ -11,8 +11,8 @@ export default function FloatingWA() {
 
   const contacts = [
     {
-      name: 'Ibu Tri Yatmi',
-      role: 'WhatsApp Utama \(Tri Yatmi\)',
+      name: 'Ibu Triyatmi',
+      role: 'WhatsApp Utama \(Triyatmi\)',
       number: CONTACT_INFO.whatsappPrimary,
       formatted: CONTACT_INFO.whatsappPrimaryFormatted,
       status: 'Online',
@@ -132,5 +132,6 @@ export default function FloatingWA() {
     </div>
   );
 }
+
 
 

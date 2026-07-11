@@ -2,7 +2,7 @@ import { Property, PropertyArea, LayananItem, TestimonialItem, ArticleItem } fro
 
 // Informasi Kontak Utama
 export const CONTACT_INFO = {
-  name: 'Tri Yatmi',
+  name: 'Triyatmi',
   title: 'Konsultan Properti Profesional (Affiliated with Valtis Property)',
   whatsappPrimary: '81911092009', // Link format: 6281911092009
   whatsappSecondary: '81911092009', // Link format: 6281911092009
@@ -179,7 +179,7 @@ export const SERVICES_DATA: LayananItem[] = [
   }
 ];
 
-// MENGAPA MEMILIH TRI YATMI
+// MENGAPA MEMILIH Triyatmi
 export const WHY_CHOOSE_REASONS = [
   'Konsultasi tulus berdasarkan kebutuhan rill Anda, bukan sekadar memaksakan target penjualan properti.',
   'Informasi mengenai spesifikasi, legalitas sertifikat, dan kondisi lingkungan disampaikan secara jelas dan 100% transparan.',
@@ -233,7 +233,7 @@ export const WORK_PROCESS_STEPS = [
 //     id: 'test-3',
 //     name: 'Bapak Dr. Ronald',
 //     role: 'Klien Penitipan Sewa Rumah',
-//     content: '“Saya mempercayakan penitipan pemasaran rumah sewa saya di Bintaro kepada Ibu Tri Yatmi. Hanya butuh waktu kurang dari 3 minggu hingga beliau berhasil memilah penyewa yang andal dan berkualitas untuk menyewa aset berharga kami.”',
+//     content: '“Saya mempercayakan penitipan pemasaran rumah sewa saya di Bintaro kepada Ibu Triyatmi. Hanya butuh waktu kurang dari 3 minggu hingga beliau berhasil memilah penyewa yang andal dan berkualitas untuk menyewa aset berharga kami.”',
 //     avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80'
 //   }
 // ];
@@ -271,6 +271,7 @@ export const ARTICLES_DATA: ArticleItem[] = [
     readTime: '6 menit baca'
   }
 ];
+
 
 
 

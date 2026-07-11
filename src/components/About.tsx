@@ -37,14 +37,14 @@ export default function About({ onNavigate }: AboutProps) {
     },
   ];
 
-  const wsLink = `https://wa.me/62${CONTACT_INFO.whatsappPrimary}?text=Halo%20Ibu%20Tri%20Yatmi%2C%20saya%20membaca%20profil%20Anda%20di%20website%20personal%20Ibu.%20Saya%20ingin%20berkonsultasi%20mengenai%20kebutuhan%20properti.`;
+  const wsLink = `https://wa.me/62${CONTACT_INFO.whatsappPrimary}?text=Halo%20Ibu%20Triyatmi%2C%20saya%20membaca%20profil%20Anda%20di%20website%20personal%20Ibu.%20Saya%20ingin%20berkonsultasi%20mengenai%20kebutuhan%20properti.`;
 
   return (
     <section id="tentang" className="py-20 sm:py-24 bg-gradient-to-b from-slate-50 to-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
           
-          {/* Sisi Kiri: Foto Tri Yatmi Dengan Hiasan Geometris */}
+          {/* Sisi Kiri: Foto Triyatmi Dengan Hiasan Geometris */}
           <div className="lg:col-span-5 relative flex justify-center items-center">
             <div className="absolute w-[95%] aspect-square bg-[#90E0EF]/40 rounded-3xl -top-6 -left-6 -z-10 filter blur-sm" />
             <div className="absolute w-[85%] aspect-square bg-[#00B4D8]/10 rounded-[40px] -bottom-6 -right-6 -z-10" />
@@ -58,7 +58,7 @@ export default function About({ onNavigate }: AboutProps) {
             >
               <img
                 src={IMAGES.triYatmiPortrait}
-                alt="Tri Yatmi, Konsultan Properti Profesional"
+                alt="Triyatmi, Konsultan Properti Profesional"
                 className="w-full h-full object-cover"
                 loading="lazy"
                 referrerPolicy="no-referrer"
@@ -68,7 +68,7 @@ export default function About({ onNavigate }: AboutProps) {
                 <blockquote className="text-xs italic text-[#CAF0F8] mb-2 leading-relaxed opacity-90">
                   "Membantu klien memahami pilihan properti dengan informasi yang jelas, pendekatan yang personal, dan proses yang lebih terarah."
                 </blockquote>
-                <p className="font-serif font-extrabold text-lg text-white">Tri Yatmi</p>
+                <p className="font-serif font-extrabold text-lg text-white">Triyatmi</p>
                 <p className="text-[10px] uppercase font-bold text-[#90E0EF] tracking-widest mt-0.5">
                   Konsultan Properti Profesional
                 </p>
@@ -106,7 +106,7 @@ export default function About({ onNavigate }: AboutProps) {
           <div className="lg:col-span-7 space-y-6 text-left">
             <div className="space-y-3">
               <span className="inline-block bg-very-light-blue text-[#0077B6] font-bold text-xs uppercase tracking-widest px-3.5 py-1.5 rounded-full">
-                Tentang Tri Yatmi
+                Tentang Triyatmi
               </span>
 
               <h2 className="font-serif text-3xl sm:text-4xl font-bold text-navy leading-tight">
@@ -116,7 +116,7 @@ export default function About({ onNavigate }: AboutProps) {
 
             <div className="space-y-4 text-slate-600 sm:text-lg leading-relaxed text-justify">
               <p>
-                <strong>Tri Yatmi</strong> adalah konsultan properti profesional yang membantu klien dalam kebutuhan jual, beli, sewa, dan pemasaran properti. Dengan pengalaman lebih dari 20 tahun, Tri Yatmi memahami pentingnya informasi yang jelas, komunikasi yang responsif, serta arahan yang tepat sebelum klien mengambil keputusan.
+                <strong>Triyatmi</strong> adalah konsultan properti profesional yang membantu klien dalam kebutuhan jual, beli, sewa, dan pemasaran properti. Dengan pengalaman lebih dari 20 tahun, Triyatmi memahami pentingnya informasi yang jelas, komunikasi yang responsif, serta arahan yang tepat sebelum klien mengambil keputusan.
               </p>
 
               <p>
@@ -203,14 +203,14 @@ export default function About({ onNavigate }: AboutProps) {
                   <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-full overflow-hidden border-2 border-slate-150 flex-shrink-0">
                     <img
                       src={IMAGES.triYatmiPortrait}
-                      alt="Portrait Tri Yatmi"
+                      alt="Portrait Triyatmi"
                       className="w-full h-full object-cover"
                     />
                   </div>
 
                   <div>
                     <h3 className="font-serif text-xl sm:text-2xl font-black text-navy leading-tight">
-                      Tri Yatmi
+                      Triyatmi
                     </h3>
                     <p className="text-xs text-slate-500 font-bold uppercase tracking-wider mt-0.5">
                       Konsultan Properti Profesional
@@ -223,15 +223,15 @@ export default function About({ onNavigate }: AboutProps) {
 
                 <div className="space-y-4 text-sm text-slate-600 leading-relaxed text-justify">
                   <p>
-                    Tri Yatmi berfokus pada pendampingan properti yang personal dan mudah dipahami, baik untuk kebutuhan pembelian, penjualan, penyewaan, maupun pemasaran aset properti. Setiap klien dibantu untuk memahami kondisi pasar, potensi lokasi, kesesuaian harga, serta hal-hal penting yang perlu diperhatikan sebelum mengambil keputusan.
+                    Triyatmi berfokus pada pendampingan properti yang personal dan mudah dipahami, baik untuk kebutuhan pembelian, penjualan, penyewaan, maupun pemasaran aset properti. Setiap klien dibantu untuk memahami kondisi pasar, potensi lokasi, kesesuaian harga, serta hal-hal penting yang perlu diperhatikan sebelum mengambil keputusan.
                   </p>
 
                   <p>
-                    Dalam proses kerja bersama Valtis Property, Tri Yatmi mengutamakan transparansi informasi, komunikasi yang jelas, dan pendampingan yang terarah. Mulai dari pencarian properti, pemasaran aset, survei lokasi, negosiasi, pengecekan dokumen, hingga koordinasi transaksi, seluruh tahapan diarahkan agar klien merasa lebih aman dan percaya diri.
+                    Dalam proses kerja bersama Valtis Property, Triyatmi mengutamakan transparansi informasi, komunikasi yang jelas, dan pendampingan yang terarah. Mulai dari pencarian properti, pemasaran aset, survei lokasi, negosiasi, pengecekan dokumen, hingga koordinasi transaksi, seluruh tahapan diarahkan agar klien merasa lebih aman dan percaya diri.
                   </p>
 
                   <h4 className="text-xs font-bold uppercase tracking-widest text-[#0077B6] pt-2">
-                    Nilai-Nilai Kerja Tri Yatmi:
+                    Nilai-Nilai Kerja Triyatmi:
                   </h4>
 
                   <ul className="space-y-3 text-xs font-semibold text-slate-700">

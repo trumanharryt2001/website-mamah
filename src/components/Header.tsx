@@ -60,7 +60,7 @@ export default function Header({ activeSection, onNavigate }: HeaderProps) {
     onNavigate(id);
   };
 
-  const wsLink = `https://wa.me/62${CONTACT_INFO.whatsappPrimary}?text=Halo%20Ibu%20Tri%20Yatmi%2C%20saya%20mendapatkan%20informasi%20dari%20website%20personal%20Ibu.%20Saya%20ingin%20berkonsultasi%20mengenai%20kebutuhan%20properti.`;
+  const wsLink = `https://wa.me/62${CONTACT_INFO.whatsappPrimary}?text=Halo%20Ibu%20Triyatmi%2C%20saya%20mendapatkan%20informasi%20dari%20website%20personal%20Ibu.%20Saya%20ingin%20berkonsultasi%20mengenai%20kebutuhan%20properti.`;
 
   return (
     <>
@@ -85,7 +85,7 @@ export default function Header({ activeSection, onNavigate }: HeaderProps) {
 
               <div className="min-w-0">
                 <span className="block font-serif font-extrabold text-[15px] sm:text-xl tracking-wide text-[#03045E] leading-tight truncate">
-                  TRI YATMI
+                  Triyatmi
                 </span>
                 <span className="block text-[9px] sm:text-[10px] uppercase tracking-[0.18em] sm:tracking-[0.22em] text-[#0077B6] font-black leading-tight truncate">
                   Konsultan Properti
@@ -199,7 +199,7 @@ export default function Header({ activeSection, onNavigate }: HeaderProps) {
 
                   <div className="min-w-0">
                     <span className="block font-serif font-bold text-base tracking-wide truncate">
-                      TRI YATMI
+                      Triyatmi
                     </span>
                     <span className="block text-[9px] uppercase tracking-[0.2em] text-[#CAF0F8] font-semibold truncate">
                       Konsultan Properti
@@ -262,5 +262,6 @@ export default function Header({ activeSection, onNavigate }: HeaderProps) {
     </>
   );
 }
+
 
 

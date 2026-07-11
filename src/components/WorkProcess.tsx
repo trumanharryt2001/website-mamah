@@ -21,7 +21,7 @@ export default function WorkProcess() {
             SISTEMATIKA KERJA
           </motion.div>
           <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-navy">
-            Bagaimana Tri Yatmi Membantu Anda?
+            Bagaimana Triyatmi Membantu Anda?
           </h2>
           <p className="text-gray-600 sm:text-lg leading-relaxed">
             Alur kerja profesional yang terstruktur untuk memastikan kenyamanan keputusan dan keabsahan dokumen hukum di tiap transaksi.
@@ -91,5 +91,6 @@ export default function WorkProcess() {
     </section>
   );
 }
+
 
 

@@ -9,7 +9,7 @@ interface HeroProps {
 }
 
 export default function Hero({ onSearchClick, onNavigate }: HeroProps) {
-  const wsMainLink = `https://wa.me/62${CONTACT_INFO.whatsappPrimary}?text=Halo%20Ibu%20Tri%20Yatmi%2C%20saya%20mendapatkan%20informasi%20dari%20website%20Anda.%20Saya%20ingin%20berkonsultasi%20mengenai%20kebutuhan%20properti.`;
+  const wsMainLink = `https://wa.me/62${CONTACT_INFO.whatsappPrimary}?text=Halo%20Ibu%20Triyatmi%2C%20saya%20mendapatkan%20informasi%20dari%20website%20Anda.%20Saya%20ingin%20berkonsultasi%20mengenai%20kebutuhan%20properti.`;
 
   return (
     <section id="home" className="relative pt-24 sm:pt-28 md:pt-36 pb-16 md:pb-24 overflow-hidden bg-gradient-to-b from-white via-[#f0f9ff]/70 to-[#CAF0F8]/40">
@@ -60,7 +60,7 @@ export default function Hero({ onSearchClick, onNavigate }: HeroProps) {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-base sm:text-lg text-gray-600 max-w-xl leading-relaxed"
             >
-             Tri Yatmi mendampingi kebutuhan jual, beli, sewa, dan investasi properti dengan proses yang lebih jelas, responsif, dan sesuai kebutuhan klien.
+             Triyatmi mendampingi kebutuhan jual, beli, sewa, dan investasi properti dengan proses yang lebih jelas, responsif, dan sesuai kebutuhan klien.
             </motion.p>
 
             {/* Dual CTA Buttons */}
@@ -118,7 +118,7 @@ export default function Hero({ onSearchClick, onNavigate }: HeroProps) {
               </div>
             </motion.div>
 
-            {/* Hubungi Tri Yatmi Details */}
+            {/* Hubungi Triyatmi Details */}
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -127,7 +127,7 @@ export default function Hero({ onSearchClick, onNavigate }: HeroProps) {
             >
               <p className="text-xs font-bold uppercase tracking-widest text-[#0077B6] mb-2 flex items-center space-x-1.5">
                 <Phone className="w-3.5 h-3.5" />
-                <span>Hubungi Tri Yatmi :</span>
+                <span>Hubungi Triyatmi :</span>
               </p>
               <div className="flex flex-col sm:flex-row sm:space-x-6 text-sm">
                 <div>
@@ -171,13 +171,13 @@ export default function Hero({ onSearchClick, onNavigate }: HeroProps) {
             >
               <img
                 src={IMAGES.triYatmiPortrait}
-                alt="Ibu Tri Yatmi - Konsultan Properti Profesional"
+                alt="Ibu Triyatmi - Konsultan Properti Profesional"
                 className="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-700"
                 referrerPolicy="no-referrer"
               />
               <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent p-5 text-white">
                 <p className="font-serif font-bold text-lg">
-                  Tri Yatmi
+                  Triyatmi
                 </p>
                 <p className="text-[11px] text-[#CAF0F8] tracking-wider uppercase font-medium mt-0.5">
                   Konsultan Properti Profesional
@@ -217,6 +217,7 @@ export default function Hero({ onSearchClick, onNavigate }: HeroProps) {
     </section>
   );
 }
+
 
 
 

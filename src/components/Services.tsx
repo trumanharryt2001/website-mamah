@@ -50,7 +50,7 @@ export default function Services() {
             Layanan Properti untuk Jual, Beli, &amp; sewa
           </h2>
           <p className="text-gray-600 sm:text-lg leading-relaxed">
-            Tri Yatmi membantu Anda mengambil keputusan properti dengan pendampingan yang jelas, terarah, dan profesional dari awal hingga proses transaksi.
+            Triyatmi membantu Anda mengambil keputusan properti dengan pendampingan yang jelas, terarah, dan profesional dari awal hingga proses transaksi.
           </p>
         </div>
 
@@ -105,6 +105,7 @@ export default function Services() {
     </section>
   );
 }
+
 
 
 
