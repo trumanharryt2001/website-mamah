@@ -98,7 +98,7 @@ export default function Articles() {
                     <span className="group-hover:translate-x-1.5 transition-transform">➔</span>
                   </button>
                   <span className="text-[10px] text-slate-400 font-semibold uppercase font-mono">
-                    Oleh Tri Y.
+                    Oleh Triyatmi
                   </span>
                 </div>
               </div>
