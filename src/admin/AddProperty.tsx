@@ -106,7 +106,7 @@ export const AddProperty: React.FC = () => {
   // Handler pemilihan banyak foto untuk galeri sekaligus
   const handleGalleryChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files) {
-      const filesArray = Array.from(e.target.files);
+      const filesArray = Array.from(e.target.files) as File[];
 
       setGalleryFiles((prev) => [...prev, ...filesArray]);
 

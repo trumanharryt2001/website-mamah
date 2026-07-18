@@ -86,7 +86,7 @@ export default function ConsignmentForm() {
     e.preventDefault();
     setIsDragging(false);
 
-    const droppedFiles = Array.from(e.dataTransfer.files);
+    const droppedFiles = Array.from(e.dataTransfer.files) as File[];
     addFiles(droppedFiles);
   };
 
@@ -94,7 +94,7 @@ export default function ConsignmentForm() {
     e: React.ChangeEvent<HTMLInputElement>
   ) => {
     if (e.target.files) {
-      const selectedFiles = Array.from(e.target.files);
+      const selectedFiles = Array.from(e.target.files) as File[];
       addFiles(selectedFiles);
     }
 

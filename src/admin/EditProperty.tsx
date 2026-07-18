@@ -231,7 +231,7 @@ export default function EditProperty() {
 
       setUploadingGallery(true);
 
-      const files = Array.from(e.target.files);
+      const files = Array.from(e.target.files) as File[];
       const uploadedUrls: string[] = [];
 
       for (const file of files) {

@@ -1,4 +1,22 @@
-import { Property, PropertyArea, LayananItem, TestimonialItem, ArticleItem } from './types';
+import { PropertyArea, LayananItem, ArticleItem } from './types';
+
+type LegacyProperty = {
+  id: string;
+  name: string;
+  location: string;
+  priceVal: number;
+  priceText: string;
+  status: 'Dijual' | 'Disewakan';
+  type: string;
+  bedrooms?: number;
+  bathrooms?: number;
+  landArea: string;
+  buildingArea?: string;
+  badge: string;
+  description: string;
+  image: string;
+  additionalHighlights?: string[];
+};
 
 // Informasi Kontak Utama
 export const CONTACT_INFO = {
@@ -25,7 +43,7 @@ export const IMAGES = {
 };
 
 // DATA LISTING PROPERTI (Placeholder Data yang dapat diedit dan diintegrasikan ke CMS/Database)
-export const PROPERTIES_DATA: Property[] = [
+export const PROPERTIES_DATA: LegacyProperty[] = [
   {
     id: 'prop-1',
     name: 'Rumah Modern Minimalis BSD',

@@ -182,7 +182,7 @@ function HomePage() {
         <Hero onSearchClick={() => handleNavigation('properti')} onNavigate={handleNavigation} />
 
         {/* Floating Property Search Filter Box */}
-        <PropertySearch filters={filters} onSearch={handleSearchFilter} />
+        <PropertySearch onSearch={handleSearchFilter} />
 
         {/* Live filtered Properties catalog section */}
         <PropertySection filters={filters} />
